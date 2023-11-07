@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logins",
+  "info": {
+    "singularName": "login",
+    "pluralName": "logins",
+    "displayName": "login"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "User_Name": {
+      "type": "string"
+    },
+    "User_Mail": {
+      "type": "email"
+    },
+    "User_Password": {
+      "type": "password"
+    },
+    "Rol": {
+      "type": "string"
+    }
+  }
+}
